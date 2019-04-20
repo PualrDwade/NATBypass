@@ -97,7 +97,7 @@ func printWelcome() {
 	fmt.Println()
 	// sleep one second because the fmt is not thread-safety.
 	// if not to do this, fmt.Print will print after the log.Print.
-	time.Sleep(time.Second)
+	// time.Sleep(time.Second)
 }
 func printHelp() {
 	fmt.Println(`usage: "-listen port1 port2" example: "nb -listen 1997 2017" `)
